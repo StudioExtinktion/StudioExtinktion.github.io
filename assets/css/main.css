@@ -9,6 +9,12 @@
 
 /* Reset */
 
+img {
+	max-height: 100%;
+	max-width: 100%;
+		
+}
+
 h2 {
 	font-family: "infini";
 	color: #195356;
