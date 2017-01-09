@@ -9,6 +9,11 @@
 
 /* Reset */
 
+form {
+	align-content: center;
+	
+}
+
 img, p {
 	height:auto;
 	max-width: 100%;
