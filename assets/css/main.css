@@ -10,7 +10,7 @@
 /* Reset */
 
 img, p {
-	max-height: 100%;
+	height:auto;
 	max-width: 100%;
 		
 }
