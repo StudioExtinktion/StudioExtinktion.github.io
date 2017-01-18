@@ -9,6 +9,26 @@
 
 /* Reset */
 
+html { 
+  background: url(../../images/poster design final8.png)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+  #progressbar {
+      background-color: #195356;
+      border-radius: 13px; /* (height of inner div) / 2 + padding */
+      padding: 3px;
+    }
+    
+    #progressbar > div {
+       background-color: #7BCCC0;
+       width: 25%; /* Adjust with JavaScript */
+       height: 20px;
+       border-radius: 10px;
+    }
 form {
 	align-content: center;
 	
@@ -35,6 +55,7 @@ h2 {
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		background-image: url(../../images/poster design final8.png);
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -43,6 +64,7 @@ h2 {
 
 	body {
 		line-height: 1;
+		background-image: url(../../images/poster design final8.png);
 	}
 
 	ol, ul {
@@ -1751,6 +1773,7 @@ h2 {
 	header.major h2 {
 		color: #348189;
 		font-size: 3.5em;
+		
 	}
 
 		header.major h2 + p {
@@ -2496,11 +2519,11 @@ h2 {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #b6e9dc;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: white;
 			}
 
 		#header header p {
@@ -2513,6 +2536,7 @@ h2 {
 
 			#header a:hover {
 				color: #ffffff !important;
+				background: #195356;
 			}
 
 		#header > header {
@@ -2535,7 +2559,7 @@ h2 {
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: #b6e9dc;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2573,7 +2597,7 @@ h2 {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #195356;
+					border-top: solid 2px #;
 					display: block;
 					padding: 0;
 				}
@@ -2584,16 +2608,15 @@ h2 {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #b6e9dc !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #7BCCC0; !important;
-						}
+							background-color: #195356;
+							color: #7BCCC0; 						}
 
 					#header > nav ul li:first-child {
 						border-top: 0;
@@ -2602,22 +2625,25 @@ h2 {
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
-		padding-right: 23em;
+			padding-right: 23em;
+		background-image: url(../../images/poster design final8.png);
 	}
 
 /* Main */
 
 	#main > section {
 		border-top: solid 6px #f4f4f4;
+		background-image: url(../../images/poster design final8.png);
 	}
 
 		#main > section > .container {
 			padding: 6em 0 4em 0;
+			background-image: url(../../images/poster design final8.png);
 		}
 
 		#main > section:first-child {
 			border-top: 0;
+			background-image: url(../../images/poster design final8.png);
 		}
 
 /* One */
@@ -2741,10 +2767,12 @@ h2 {
 
 			html, body {
 				overflow-x: hidden;
+				background-image: url(../../images/poster design final8.png);
 			}
 
 			body, input, select, textarea {
 				font-size: 12pt;
+				background-image: url(../../images/poster design final8.png);
 			}
 
 		/* Image */

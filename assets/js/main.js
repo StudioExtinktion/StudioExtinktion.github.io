@@ -13,6 +13,20 @@
 		small: '(max-width: 736px)',
 		xsmall: '(max-width: 480px)'
 	});
+	
+	function move() {
+    var elem = document.getElementById("progressbar"); 
+    var width = 1;
+    var id = setInterval(frame, 1);
+    function frame() {
+        if (width >= 100) {
+            clearInterval(id);
+        } else {
+            width++; 
+            elem.style.width = width + '%'; 
+        }
+    }
+}
 
 	$(function() {
 
@@ -109,5 +123,7 @@
 						.css('transition', 'none');
 
 	});
+	
+	
 
 })(jQuery);
